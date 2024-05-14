@@ -1,0 +1,423 @@
+:root {
+  --rose: #f72585;
+  --fandango: #b5179e;
+  --grape: #7209b7;
+  --chrysler-blue: #560bad;
+  --dark-blue: #480ca8;
+  --zaffre: #3a0ca3;
+  --palatinate-blue: #3f37c9;
+  --neon-blue: #4361ee;
+  --chefchaouen-blue: #4895ef;
+  --white: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #480ca8;
+}
+
+.login .custom-button {
+  color: var(--fandango);
+  border: none;
+}
+
+.custom-button-2 {
+  color: #ffe1fb;
+  background-color: var(--fandango);
+  padding: 8px 20px;
+  border: var(--fandango);
+}
+
+.custom-button-2:hover {
+  background-color: #940783;
+  transition: 0.2s ease-in-out;
+}
+
+/* navbar */
+.navbar-brand,
+.navbar-brand:hover {
+  color: var(--dark-blue);
+}
+
+.active {
+  color: var(--fandango) !important;
+}
+.nav-item .nav-link:hover {
+  color: var(--fandango);
+  transition: all ease-in-out 0.3s;
+}
+
+/* hero section */
+#hero {
+  height: 90vh;
+}
+
+#hero h1 {
+  color: var(--dark-blue);
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+
+#hero p {
+  color: #810e72;
+  text-align: center;
+}
+
+/* about */
+#about {
+  background-color: #fae6f9;
+}
+
+#about h2 {
+  color: #810e72;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.15em;
+  color: var(--fandango);
+}
+
+#about .about-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#features p span {
+  color: var(--fandango);
+}
+
+#features-comparison table .fa-circle-check {
+  color: green;
+}
+#features-comparison table .fa-xmark {
+  color: red;
+}
+
+#features-comparison button {
+  font-weight: bold;
+}
+
+.features-heading h2 {
+  color: var(--fandango);
+}
+.features-heading p {
+  color: #000 !important;
+}
+
+.custom-button {
+  color: var(--fandango);
+  background-color: var(--white);
+  padding: 8px 20px;
+  border: 1px solid var(--fandango);
+  transition: 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: var(--fandango);
+  color: var(--white);
+}
+
+thead th {
+  color: var(--fandango) !important;
+}
+
+tbody td a {
+  color: #000;
+}
+
+tbody p {
+  display: none;
+}
+
+tfoot th a {
+  color: var(--fandango);
+}
+tfoot th a:hover {
+  color: #7c006e;
+}
+
+#features div h2 {
+  color: var(--dark-blue);
+}
+.features-items {
+  font-size: large;
+  color: var(--fandango);
+}
+
+.features-heading {
+  margin-top: 50px;
+}
+
+/* check personality */
+#check {
+  background-color: #fae6f9;
+  color: #810e72;
+}
+
+#check .display-3 {
+  color: #810e72 !important;
+}
+
+.check-heading p {
+  margin-bottom: 40px;
+}
+
+.check-button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#check p {
+  color: var(--fandango);
+}
+
+#community {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.community-heading h2 {
+  color: var(--dark-blue);
+}
+.community-heading p {
+  color: var(--fandango);
+}
+
+/* article */
+
+.card-body .badge {
+  background-color: var(--rose);
+}
+
+#article h2 {
+  color: var(--dark-blue);
+}
+
+#article .card-title {
+  color: var(--dark-blue);
+}
+
+#article .card-text {
+  color: #000;
+}
+
+.article-button a {
+  color: var(--dark-blue);
+}
+.article-button a:hover {
+  color: #110d5c;
+}
+#features-comparison table th {
+  font-size: 0.8em;
+}
+#features-comparison table td {
+  font-size: 0.8em;
+}
+
+#features-comparison tbody th {
+  text-align: left;
+}
+#features-comparison tbody td {
+  text-align: center;
+}
+
+/* footer */
+
+.footer-logo {
+  color: #810e72;
+}
+
+.footer-section .custom-social li {
+  margin: 2px;
+  display: inline-block;
+}
+.footer-section .custom-social li a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  background: #faf2f9;
+  color: #810e72;
+  border-radius: 50%;
+}
+.footer-section .custom-social li a:hover {
+  background: #810e72;
+  color: #ffffff;
+}
+
+.subscription-form h5 {
+  color: #810e72;
+}
+
+.footer-section h5 {
+  color: #810e72;
+}
+
+.subscription-form .form-btn {
+  background-color: var(--fandango);
+  border: 1px solid var(--fandango);
+  padding: 12px 28px;
+  color: var(--white);
+}
+/* footer */
+.subscription-form .form-btn:hover {
+  background-color: #8b0977;
+  border: 1px solid var(--fandango);
+  padding: 12px 28px;
+  color: var(--white);
+}
+
+.reason-text p {
+  color: var(--fandango);
+}
+
+#form {
+  background-color: #fbf5ff;
+}
+
+#form form .logo {
+  color: var(--dark-blue);
+}
+
+#form .form-input {
+  background-color: #e8dfff;
+}
+
+#form input {
+  background-color: #e8dfff;
+  border: 1px solid var(--dark-blue);
+}
+
+#form .custom-button-3 {
+  color: #e8dfff;
+  background-color: var(--dark-blue);
+  padding: 8px 20px;
+}
+#form .custom-button-3:hover {
+  color: #e8dfff;
+  background-color: #110d5c;
+  padding: 8px 20px;
+  transition: 0.2s ease-in-out;
+}
+
+footer {
+  background-color: #ffe1fb;
+}
+
+footer h5 {
+  color: var(--fandango);
+}
+
+footer .contact-information span {
+  color: var(--fandango);
+}
+
+footer li a {
+  font-size: 0.75em;
+  color: #000;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer .copyright span {
+  color: var(--fandango);
+}
+
+.terms-privacy a {
+  color: var(--fandango);
+}
+
+/* Media Queries */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #hero .hero-title h1 {
+    text-align: center;
+    margin-bottom: 2.2rem;
+  }
+
+  #hero .custom-button {
+    margin: 0 auto;
+  }
+
+  #features-comparison table th {
+    font-size: 1em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .login .custom-button {
+    color: var(--white);
+    background-color: var(--fandango);
+    padding: 8px 20px;
+  }
+
+  .login .custom-button:hover {
+    color: var(--white);
+    background-color: #940783;
+    transition: 0.2s ease-in-out;
+  }
+
+  #hero {
+    height: 100vh;
+  }
+
+  #hero .custom-button {
+    margin: 0;
+  }
+
+  #hero .hero-title h1 {
+    text-align: left;
+    margin-bottom: 2.5rem;
+  }
+
+  #hero .hero-title p {
+    text-align: left;
+  }
+
+  #about h2 {
+    text-align: left;
+  }
+
+  #about .about-button {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .check-heading p {
+    margin-bottom: 80px;
+  }
+
+  .check-button {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  #community {
+    margin-top: 150px;
+    margin-bottom: 80px;
+  }
+
+  tbody p {
+    display: block;
+  }
+
+  .features-heading {
+    width: 70%;
+    margin: 30px auto 0 auto;
+  }
+}
