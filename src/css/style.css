@@ -283,22 +283,22 @@ tfoot th a:hover {
 
 #form .custom-button-3 {
   color: white;
-  background-color: var(--amethyst);
+  background-color: var(--tekhelet);
   padding: 8px 20px;
 }
 #form .custom-button-3:hover {
   color: #e8dfff;
-  background-color: #110d5c;
+  background-color: #240046;
   padding: 8px 20px;
   transition: 0.2s ease-in-out;
 }
 
 .form-label {
-  color: var(--mauve);
+  color: #f8edff;
 }
 
 .form-check {
-  color: var(--mauve);
+  color: #f8edff;
 }
 
 #form .card-body h5 {
